@@ -1,0 +1,25 @@
+// 定义proto文件版本号
+syntax = "proto3";
+
+// 生成一个java类即可
+option java_multiple_files = false;
+// 生成的java类的包名
+option java_package = "com.levi";
+// 外部类，这里就是HelloProto,实际开发你可以有多个proto管理不同业务类，然后各自的外部类都可以。比如OrderService就是Order.proto 外部类就是OrderProto
+option java_outer_classname = "HelloProto";
+
+// 定义请求接口参数
+message HelloRequest{
+  string name = 1;
+}
+
+// 定义接口响应参数
+message HelloResponse{
+  string result = 1;
+}
+
+// 定义服务
+service HelloService{
+  /* 简单rpc,参数为HelloRequest类型，返回类型为HelloResponse */
+  rpc hello(HelloRequest) returns (HelloResponse){}
+}

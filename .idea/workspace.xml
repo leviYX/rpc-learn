@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="rpc-hessian:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="rpc初始学习。" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="$PROJECT_DIR$/../../../../../tools/maven/apache-maven-3.9.6" />
+        <option name="localRepository" value="$PROJECT_DIR$/../../../../../tools/maven/apache-maven-3.9.6/repo" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../../tools/maven/apache-maven-3.9.6/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2ZhaXb3JhkQdnQOtqvc5l0rRkXn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.GrpcClient1.executor": "Run",
+    "Application.GrpcClient2.executor": "Run",
+    "Application.GrpcServer1.executor": "Run",
+    "Application.RpcGrpcBootServerApplication.executor": "Debug",
+    "Application.ServerStreamAsyncClient.executor": "Run",
+    "Application.ServerStreamClient.executor": "Run",
+    "Application.TestClient.executor": "Run",
+    "Application.TestServer.executor": "Run",
+    "Maven.rpc-grpc-api [clean].executor": "Run",
+    "Maven.rpc-grpc-api [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "Maven.rpc-grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor": "Run",
+    "Maven.rpc-grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor": "Run",
+    "Maven.rpc-grpc-api [protobuf:compile].executor": "Run",
+    "Maven.rpc-grpc-boot-server [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor": "Run",
+    "Maven.rpc-grpc-boot-server [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor": "Run",
+    "Maven.thrift-common [clean].executor": "Run",
+    "Maven.thrift-common [install].executor": "Run",
+    "Maven.thrift-common [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.RpcGrpcBootClientApplication.executor": "Debug",
+    "Spring Boot.RpcGrpcBootServerApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-service/src/main/java/com/levi",
+    "last_opened_file_path": "/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-boot-client/src/main/java/com/levi",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rpc-grpc-boot-client/src/main/java/com/levi/" />
+      <recent name="$PROJECT_DIR$/rpc-grpc-boot-server/src/proto" />
+      <recent name="$PROJECT_DIR$/rpc-grpc-boot-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/rpc-grpc-api/src/main/java/com/levi" />
+      <recent name="$PROJECT_DIR$/rpc-grpc-api/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rpc-grpc-boot-server/src/main" />
+      <recent name="$PROJECT_DIR$/rpc-thrift-idl/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.levi.clientServerStream" />
+      <recent name="com.levi.clientStream" />
+      <recent name="com.levi.serverStream" />
+      <recent name="com.levi" />
+      <recent name="com.levi.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.RpcGrpcBootClientApplication">
+    <configuration name="GrpcClient2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.levi.GrpcClient2" />
+      <module name="rpc-grpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.levi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GrpcServer1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.levi.GrpcServer1" />
+      <module name="rpc-grpc-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.levi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcGrpcBootServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.levi.rpcgrpcbootserver.RpcGrpcBootServerApplication" />
+      <module name="rpc-grpc-boot-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.levi.rpcgrpcbootserver.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerStreamAsyncClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.levi.serverStream.ServerStreamAsyncClient" />
+      <module name="rpc-grpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.levi.serverStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerStreamClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.levi.serverStream.ServerStreamClient" />
+      <module name="rpc-grpc-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.levi.serverStream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="rpc-hessian" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="rpc-hessian" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RpcGrpcBootClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rpc-grpc-boot-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.levi.rpcgrpcbootclient.RpcGrpcBootClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RpcGrpcBootServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rpc-grpc-boot-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.levi.rpcgrpcbootserver.RpcGrpcBootServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="userserviceTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="rpc-hessian:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/rpc-hessian" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="fd8b2b18-695f-4db8-b293-2b2c26c0260d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64555" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="rpc-hessian:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RpcGrpcBootServerApplication" />
+        <item itemvalue="Application.ServerStreamAsyncClient" />
+        <item itemvalue="Application.GrpcServer1" />
+        <item itemvalue="Application.ServerStreamClient" />
+        <item itemvalue="Application.GrpcClient2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\LWQ\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="" />
+      <created>1702876804241</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702876804241</updated>
+      <workItem from="1702876838008" duration="812000" />
+      <workItem from="1703605557863" duration="63000" />
+      <workItem from="1704532572015" duration="608000" />
+      <workItem from="1704540368450" duration="931000" />
+      <workItem from="1704628626787" duration="1658000" />
+      <workItem from="1704887141493" duration="63000" />
+      <workItem from="1705482337564" duration="2609000" />
+      <workItem from="1705495018190" duration="1322000" />
+      <workItem from="1709818733091" duration="87000" />
+      <workItem from="1709970281438" duration="775000" />
+      <workItem from="1710048064523" duration="625000" />
+      <workItem from="1718201424569" duration="602000" />
+      <workItem from="1718450357360" duration="218000" />
+      <workItem from="1720868146134" duration="718000" />
+      <workItem from="1722765519554" duration="8706000" />
+      <workItem from="1722865232230" duration="622000" />
+      <workItem from="1723040931635" duration="598000" />
+      <workItem from="1752046110145" duration="6661000" />
+      <workItem from="1752459485656" duration="6856000" />
+      <workItem from="1752469568543" duration="17853000" />
+      <workItem from="1752628027390" duration="5486000" />
+      <workItem from="1752713587095" duration="1063000" />
+      <workItem from="1752737623664" duration="11000" />
+      <workItem from="1752798864774" duration="1010000" />
+      <workItem from="1752804210344" duration="1347000" />
+      <workItem from="1752805570520" duration="2580000" />
+      <workItem from="1752887508813" duration="5981000" />
+      <workItem from="1752971921936" duration="11869000" />
+      <workItem from="1753006813072" duration="240000" />
+      <workItem from="1753007065546" duration="41000" />
+      <workItem from="1753007115380" duration="4436000" />
+    </task>
+    <task id="LOCAL-00001" summary="rpc初始学习。">
+      <created>1704634186956</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1704634186956</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="rpc初始学习。" />
+    <option name="LAST_COMMIT_MESSAGE" value="rpc初始学习。" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

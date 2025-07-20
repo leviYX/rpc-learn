@@ -1,0 +1,11 @@
+# 核心配置的 就是gRPC服务的端口号
+spring:
+  application:
+    name: rpc-grpc-boot-server
+  # 关闭web应用，不启动tomcat这类web容器，我们走grpc服务端
+  main:
+    web-application-type: none
+
+grpc:
+  server:
+    port: 9000

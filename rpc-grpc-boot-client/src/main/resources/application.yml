@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: rpc-grpc-boot-client
+server:
+  port: 8080
+
+# ??????grpc???????????
+grpc:
+  client:
+    grpc-server:
+      address: 'static://127.0.0.1:9000'
+      negotiation-type: plaintext

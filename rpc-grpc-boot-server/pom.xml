@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>3.5.3</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.levi</groupId>
+    <artifactId>rpc-grpc-boot-server</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>rpc-grpc-boot-server</name>
+    <description>rpc-grpc-boot-server</description>
+    <url/>
+    <licenses>
+        <license/>
+    </licenses>
+    <developers>
+        <developer/>
+    </developers>
+    <scm>
+        <connection/>
+        <developerConnection/>
+        <tag/>
+        <url/>
+    </scm>
+    <properties>
+        <java.version>17</java.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <!-- 排除spring-boot-starter-tomcat的maven依赖 -->
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.devh</groupId>
+            <artifactId>grpc-server-spring-boot-starter</artifactId>
+            <version>3.1.0.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.annotation</groupId>
+            <artifactId>javax.annotation-api</artifactId>
+            <version>1.3.2</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>kr.motd.maven</groupId>
+                <artifactId>os-maven-plugin</artifactId>
+                <version>1.7.1</version>
+            </extension>
+        </extensions>
+        <plugins>
+            <plugin>
+                <groupId>org.xolstice.maven.plugins</groupId>
+                <artifactId>protobuf-maven-plugin</artifactId>
+                <version>0.6.1</version>
+                <configuration>
+                    <!--com.google.protobuf:protoc这个命令是生成grpc的实体message的，os.detected.classifier是maven的一个内置系统参数，用来获取本机操作系统类型，
+                        这里是获取本机的操作系统类型，然后根据操作系统类型来获取protoc的命令，无需你自己写死，这里maven会自己获取-->
+                    <protocArtifact>com.google.protobuf:protoc:3.25.5:exe:${os.detected.classifier}</protocArtifact>
+                    <!--grpc-java-->
+                    <pluginId>grpc-java</pluginId>
+                    <!--io.grpc:protoc-gen-grpc-java这个命令是支持grpc的service服务的-->
+                    <pluginArtifact>io.grpc:protoc-gen-grpc-java:1.73.0:exe:${os.detected.classifier}</pluginArtifact>
+                    <!--basedir就是当前模块的根目录，我们直接生成到我们的java目录下面去-->
+                    <outputDirectory>${basedir}/src/main/java</outputDirectory>
+                    <!--追加新的文件，而不是清除旧的文件-->
+                    <clearOutputDirectory>false</clearOutputDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <!--goals是maven执行的命令，类似于clean或者install，这里是grpc插件下的两个命令，
+                            compile是生成grpc的实体message的，compile-custom是生成grpc的service服务的,两个依次执行就能获得结果-->
+                            <goal>compile</goal>
+                            <goal>compile-custom</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
