@@ -8,7 +8,8 @@
         </encoder>
     </appender>
 
-     <logger name="com.suns" level="DEBUG" additivity="false">
+    <!--只输出我们的自己的业务包下面的日志，避免其他框架的日志输出影响-->
+     <logger name="com.levi" level="DEBUG" additivity="false">
         <appender-ref ref="STDOUT"/>
     </logger>
 

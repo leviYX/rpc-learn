@@ -2,15 +2,19 @@ package com.levi.service;
 
 import com.levi.HelloProto;
 import com.levi.HelloServiceGrpc;
-import io.grpc.Status;
 import io.grpc.stub.StreamObserver;
 import lombok.extern.slf4j.Slf4j;
 
-import java.util.Random;
-
 @Slf4j
 public class HelloServiceImpl extends HelloServiceGrpc.HelloServiceImplBase {
-    private final Random random = new Random();
+
+    @Override
+    public void hello(HelloProto.HelloRequest request, StreamObserver<HelloProto.HelloRespnose> responseObserver) {
+        String name = request.getName();
+        System.out.println("接收到客户端的参数name = " + name);
+        responseObserver.onNext(HelloProto.HelloRespnose.newBuilder().setResult("this is server result").build());
+        responseObserver.onCompleted();
+    }
 
     @Override
     public StreamObserver<HelloProto.HelloRequest> hello1(StreamObserver<HelloProto.HelloRespnose> responseObserver) {
@@ -35,20 +39,4 @@ public class HelloServiceImpl extends HelloServiceGrpc.HelloServiceImplBase {
         };
     }
 
-    @Override
-    public void hello(HelloProto.HelloRequest request, StreamObserver<HelloProto.HelloRespnose> responseObserver) {
-        if (random.nextInt(100) > 30) {
-            //如果随机数 大于 30 抛出一个异常 模拟网络问题
-            log.debug("接受到了client的请求 返回 UNAVALIABLE");
-            responseObserver.onError(Status.UNAVAILABLE.withDescription("for retry").asRuntimeException());
-        } else {
-            String name = request.getName();
-            System.out.println("name = " + name);
-
-            responseObserver.onNext(HelloProto.HelloRespnose.newBuilder().setResult("this is result").build());
-            responseObserver.onCompleted();
-        }
-
-
-    }
 }
