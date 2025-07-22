@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package com.levi;
+
+option java_multiple_files = false;
+option java_package = "com.levi";
+option java_outer_classname = "HelloProto";
+
+
+message HelloRequest{
+  string name = 1;
+}
+
+message HelloRespnose{
+  string result = 1;
+}
+
+service HelloService{
+  rpc hello(HelloRequest) returns (HelloRespnose);
+  rpc hello1(stream HelloRequest) returns (stream HelloRespnose);
+}

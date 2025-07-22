@@ -27,7 +27,104 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="rpc初始学习。" />
+    <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="rpc初始学习。">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloProto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloServiceGrpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/proto/Hello.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/any.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/api.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/compiler/plugin.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/descriptor.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/duration.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/empty.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/field_mask.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/source_context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/struct.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/timestamp.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/type.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/16cdf55cbb56a2802fa970c5f6db4899/google/protobuf/wrappers.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/annotations.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/auth.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/backend.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/billing.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/client.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/config_change.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/consumer.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/control.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/distribution.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/documentation.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/endpoint.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/error_reason.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/field_behavior.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/http.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/httpbody.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/label.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/launch_stage.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/log.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/logging.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/metric.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/monitored_resource.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/monitoring.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/quota.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/resource.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/routing.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/service.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/source_info.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/system_parameter.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/usage.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/api/visibility.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/cloud/audit/audit_log.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/cloud/extended_operations.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/geo/type/viewport.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/logging/type/http_request.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/logging/type/log_severity.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/longrunning/operations.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/rpc/code.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/rpc/context/attribute_context.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/rpc/error_details.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/rpc/status.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/calendar_period.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/color.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/date.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/datetime.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/dayofweek.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/decimal.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/expr.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/fraction.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/interval.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/latlng.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/localized_text.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/money.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/month.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/phone_number.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/postal_address.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/quaternion.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-dependencies/308b3bb78250086b3ff9a9e607b99dc9/google/type/timeofday.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-plugins/protoc-3.21.7-osx-x86_64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/target/protoc-plugins/protoc-gen-grpc-java-1.52.1-osx-x86_64.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClient1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClientRetry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/interceptor/CustomClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/stream_interceptor/CustomerClientInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/resources/service_config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/GrpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/interceptor/CustomServerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/service/HelloServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/stream_interceptor/CustomServerStreamFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,6 +177,8 @@
     "Application.ServerStreamClient.executor": "Run",
     "Application.TestClient.executor": "Run",
     "Application.TestServer.executor": "Run",
+    "Maven.rpc-grpc-adv-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor": "Run",
+    "Maven.rpc-grpc-adv-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor": "Run",
     "Maven.rpc-grpc-api [clean].executor": "Run",
     "Maven.rpc-grpc-api [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
     "Maven.rpc-grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor": "Run",
@@ -96,20 +195,22 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.RpcGrpcBootClientApplication.executor": "Debug",
     "Spring Boot.RpcGrpcBootServerApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-service/src/main/java/com/levi",
-    "last_opened_file_path": "/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-boot-client/src/main/java/com/levi",
+    "last_opened_file_path": "/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-adv-server/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
@@ -122,11 +223,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/resources" />
+      <recent name="$PROJECT_DIR$/rpc-grpc-adv-api/src/main" />
       <recent name="$PROJECT_DIR$/rpc-grpc-boot-client/src/main/java/com/levi/" />
       <recent name="$PROJECT_DIR$/rpc-grpc-boot-server/src/proto" />
-      <recent name="$PROJECT_DIR$/rpc-grpc-boot-server/src/main/resources" />
-      <recent name="$PROJECT_DIR$/rpc-grpc-api/src/main/java/com/levi" />
-      <recent name="$PROJECT_DIR$/rpc-grpc-api/src/main/java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/rpc-grpc-boot-server/src/main" />
@@ -377,7 +478,8 @@
       <workItem from="1752971921936" duration="11869000" />
       <workItem from="1753006813072" duration="240000" />
       <workItem from="1753007065546" duration="41000" />
-      <workItem from="1753007115380" duration="4436000" />
+      <workItem from="1753007115380" duration="6593000" />
+      <workItem from="1753149741828" duration="2330000" />
     </task>
     <task id="LOCAL-00001" summary="rpc初始学习。">
       <created>1704634186956</created>

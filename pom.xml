@@ -18,6 +18,9 @@
         <module>rpc-grpc-api</module>
         <module>rpc-grpc-service</module>
         <module>rpc-grpc-client</module>
+        <module>rpc-grpc-adv-api</module>
+        <module>rpc-grpc-adv-client</module>
+        <module>rpc-grpc-adv-server</module>
     </modules>
 
     <properties>
@@ -26,6 +29,7 @@
         <slf4j-api.version>1.7.32</slf4j-api.version>
         <logback-classic.version>1.2.9</logback-classic.version>
         <junit.version>3.8.1</junit.version>
+        <lombok.version>1.18.38</lombok.version>
 
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
@@ -63,6 +67,12 @@
             <artifactId>junit</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
         </dependency>
 
     </dependencies>

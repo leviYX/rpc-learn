@@ -8,16 +8,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rpc-hessian" />
+        <module name="rpc-grpc-adv-server" />
         <module name="rpc-grpc-boot-client" />
         <module name="thrift-client" />
         <module name="rpc-thrift-idl" />
-        <module name="rpc-grpc-client" />
-        <module name="thrift-common" />
         <module name="rpc-grpc-api" />
         <module name="rpc-grpc-service" />
+        <module name="rpc-grpc-adv-api" />
+        <module name="rpc-grpv-demo" />
+        <module name="rpc-grpc-client" />
+        <module name="thrift-common" />
+        <module name="rpc-grpc-adv-client" />
         <module name="rpc-grpc-boot-server" />
         <module name="thrift-server" />
-        <module name="rpc-grpv-demo" />
       </profile>
     </annotationProcessing>
   </component>
