@@ -27,20 +27,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="grpc拦截器">
+    <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="简单客户端拦截器">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/proto/Hello.proto" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/proto/Hello.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClient1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClientRetry.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/interceptor/CustomClientInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/interceptor/CustomClientInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/stream_interceptor/CustomerClientInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/GrpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/interceptor/CustomServerInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/service/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/service/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/stream_interceptor/CustomServerStreamFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="simple-interceptor" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,10 +80,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.GrpcClient.executor": "Debug",
+    "Application.GrpcClient.executor": "Run",
     "Application.GrpcClient1.executor": "Run",
     "Application.GrpcClient2.executor": "Run",
-    "Application.GrpcServer.executor": "Debug",
+    "Application.GrpcServer.executor": "Run",
     "Application.GrpcServer1.executor": "Run",
     "Application.RpcGrpcBootServerApplication.executor": "Debug",
     "Application.ServerStreamAsyncClient.executor": "Run",
@@ -124,7 +113,7 @@
     "Spring Boot.RpcGrpcBootClientApplication.executor": "Debug",
     "Spring Boot.RpcGrpcBootServerApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "simple-interceptor",
+    "git-widget-placeholder": "conplex__request__interceptor",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-service/src/main/java/com/levi",
     "last_opened_file_path": "/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-adv-server/src/main/resources",
@@ -403,7 +392,9 @@
       <workItem from="1753006813072" duration="240000" />
       <workItem from="1753007065546" duration="41000" />
       <workItem from="1753007115380" duration="6593000" />
-      <workItem from="1753149741828" duration="8855000" />
+      <workItem from="1753149741828" duration="9873000" />
+      <workItem from="1753230223018" duration="16000" />
+      <workItem from="1753317905869" duration="7214000" />
     </task>
     <task id="LOCAL-00001" summary="rpc初始学习。">
       <created>1704634186956</created>
@@ -420,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753153135143</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="简单客户端拦截器">
+      <option name="closed" value="true" />
+      <created>1753165616584</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1753165616584</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +442,8 @@
     </ignored-roots>
     <MESSAGE value="rpc初始学习。" />
     <MESSAGE value="grpc拦截器" />
-    <option name="LAST_COMMIT_MESSAGE" value="grpc拦截器" />
+    <MESSAGE value="简单客户端拦截器" />
+    <option name="LAST_COMMIT_MESSAGE" value="简单客户端拦截器" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
