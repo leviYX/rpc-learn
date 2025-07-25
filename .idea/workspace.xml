@@ -27,9 +27,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="简单客户端拦截器">
+    <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="复杂客户端拦截器，可以拦截请求和响应。">
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/interceptor/CustomServerInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/interceptor/CustomClientInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/interceptor/CustomClientInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/GrpcServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/resources/logback.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +82,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.GrpcClient.executor": "Run",
+    "Application.GrpcClient.executor": "Debug",
     "Application.GrpcClient1.executor": "Run",
     "Application.GrpcClient2.executor": "Run",
-    "Application.GrpcServer.executor": "Run",
+    "Application.GrpcServer.executor": "Debug",
     "Application.GrpcServer1.executor": "Run",
     "Application.RpcGrpcBootServerApplication.executor": "Debug",
     "Application.ServerStreamAsyncClient.executor": "Run",
@@ -154,7 +156,7 @@
       <recent name="com.levi.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GrpcClient">
+  <component name="RunManager" selected="Application.GrpcServer">
     <configuration name="GrpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.levi.GrpcClient" />
       <module name="rpc-grpc-adv-client" />
@@ -394,7 +396,8 @@
       <workItem from="1753007115380" duration="6593000" />
       <workItem from="1753149741828" duration="9873000" />
       <workItem from="1753230223018" duration="16000" />
-      <workItem from="1753317905869" duration="7214000" />
+      <workItem from="1753317905869" duration="8071000" />
+      <workItem from="1753404838392" duration="6349000" />
     </task>
     <task id="LOCAL-00001" summary="rpc初始学习。">
       <created>1704634186956</created>
@@ -419,7 +422,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753165616584</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="复杂客户端拦截器，可以拦截请求和响应。">
+      <option name="closed" value="true" />
+      <created>1753327236602</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753327236602</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +454,8 @@
     <MESSAGE value="rpc初始学习。" />
     <MESSAGE value="grpc拦截器" />
     <MESSAGE value="简单客户端拦截器" />
-    <option name="LAST_COMMIT_MESSAGE" value="简单客户端拦截器" />
+    <MESSAGE value="复杂客户端拦截器，可以拦截请求和响应。" />
+    <option name="LAST_COMMIT_MESSAGE" value="复杂客户端拦截器，可以拦截请求和响应。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
