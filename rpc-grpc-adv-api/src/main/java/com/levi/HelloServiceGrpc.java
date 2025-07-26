@@ -16,37 +16,6 @@ public final class HelloServiceGrpc {
 
   // Static method descriptors that strictly reflect the proto.
   private static volatile io.grpc.MethodDescriptor<com.levi.HelloProto.HelloRequest,
-      com.levi.HelloProto.HelloRespnose> getHelloMethod;
-
-  @io.grpc.stub.annotations.RpcMethod(
-      fullMethodName = SERVICE_NAME + '/' + "hello",
-      requestType = com.levi.HelloProto.HelloRequest.class,
-      responseType = com.levi.HelloProto.HelloRespnose.class,
-      methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<com.levi.HelloProto.HelloRequest,
-      com.levi.HelloProto.HelloRespnose> getHelloMethod() {
-    io.grpc.MethodDescriptor<com.levi.HelloProto.HelloRequest, com.levi.HelloProto.HelloRespnose> getHelloMethod;
-    if ((getHelloMethod = HelloServiceGrpc.getHelloMethod) == null) {
-      synchronized (HelloServiceGrpc.class) {
-        if ((getHelloMethod = HelloServiceGrpc.getHelloMethod) == null) {
-          HelloServiceGrpc.getHelloMethod = getHelloMethod =
-              io.grpc.MethodDescriptor.<com.levi.HelloProto.HelloRequest, com.levi.HelloProto.HelloRespnose>newBuilder()
-              .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
-              .setFullMethodName(generateFullMethodName(SERVICE_NAME, "hello"))
-              .setSampledToLocalTracing(true)
-              .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.levi.HelloProto.HelloRequest.getDefaultInstance()))
-              .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  com.levi.HelloProto.HelloRespnose.getDefaultInstance()))
-              .setSchemaDescriptor(new HelloServiceMethodDescriptorSupplier("hello"))
-              .build();
-        }
-      }
-    }
-    return getHelloMethod;
-  }
-
-  private static volatile io.grpc.MethodDescriptor<com.levi.HelloProto.HelloRequest,
       com.levi.HelloProto.HelloRespnose> getHello1Method;
 
   @io.grpc.stub.annotations.RpcMethod(
@@ -126,13 +95,9 @@ public final class HelloServiceGrpc {
   public static abstract class HelloServiceImplBase implements io.grpc.BindableService {
 
     /**
-     */
-    public void hello(com.levi.HelloProto.HelloRequest request,
-        io.grpc.stub.StreamObserver<com.levi.HelloProto.HelloRespnose> responseObserver) {
-      io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall(getHelloMethod(), responseObserver);
-    }
-
-    /**
+     * <pre>
+     * 双端流方法
+     * </pre>
      */
     public io.grpc.stub.StreamObserver<com.levi.HelloProto.HelloRequest> hello1(
         io.grpc.stub.StreamObserver<com.levi.HelloProto.HelloRespnose> responseObserver) {
@@ -141,13 +106,6 @@ public final class HelloServiceGrpc {
 
     @java.lang.Override public final io.grpc.ServerServiceDefinition bindService() {
       return io.grpc.ServerServiceDefinition.builder(getServiceDescriptor())
-          .addMethod(
-            getHelloMethod(),
-            io.grpc.stub.ServerCalls.asyncUnaryCall(
-              new MethodHandlers<
-                com.levi.HelloProto.HelloRequest,
-                com.levi.HelloProto.HelloRespnose>(
-                  this, METHODID_HELLO)))
           .addMethod(
             getHello1Method(),
             io.grpc.stub.ServerCalls.asyncBidiStreamingCall(
@@ -174,14 +132,9 @@ public final class HelloServiceGrpc {
     }
 
     /**
-     */
-    public void hello(com.levi.HelloProto.HelloRequest request,
-        io.grpc.stub.StreamObserver<com.levi.HelloProto.HelloRespnose> responseObserver) {
-      io.grpc.stub.ClientCalls.asyncUnaryCall(
-          getChannel().newCall(getHelloMethod(), getCallOptions()), request, responseObserver);
-    }
-
-    /**
+     * <pre>
+     * 双端流方法
+     * </pre>
      */
     public io.grpc.stub.StreamObserver<com.levi.HelloProto.HelloRequest> hello1(
         io.grpc.stub.StreamObserver<com.levi.HelloProto.HelloRespnose> responseObserver) {
@@ -203,13 +156,6 @@ public final class HelloServiceGrpc {
         io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
       return new HelloServiceBlockingStub(channel, callOptions);
     }
-
-    /**
-     */
-    public com.levi.HelloProto.HelloRespnose hello(com.levi.HelloProto.HelloRequest request) {
-      return io.grpc.stub.ClientCalls.blockingUnaryCall(
-          getChannel(), getHelloMethod(), getCallOptions(), request);
-    }
   }
 
   /**
@@ -225,18 +171,9 @@ public final class HelloServiceGrpc {
         io.grpc.Channel channel, io.grpc.CallOptions callOptions) {
       return new HelloServiceFutureStub(channel, callOptions);
     }
-
-    /**
-     */
-    public com.google.common.util.concurrent.ListenableFuture<com.levi.HelloProto.HelloRespnose> hello(
-        com.levi.HelloProto.HelloRequest request) {
-      return io.grpc.stub.ClientCalls.futureUnaryCall(
-          getChannel().newCall(getHelloMethod(), getCallOptions()), request);
-    }
   }
 
-  private static final int METHODID_HELLO = 0;
-  private static final int METHODID_HELLO1 = 1;
+  private static final int METHODID_HELLO1 = 0;
 
   private static final class MethodHandlers<Req, Resp> implements
       io.grpc.stub.ServerCalls.UnaryMethod<Req, Resp>,
@@ -255,10 +192,6 @@ public final class HelloServiceGrpc {
     @java.lang.SuppressWarnings("unchecked")
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
-        case METHODID_HELLO:
-          serviceImpl.hello((com.levi.HelloProto.HelloRequest) request,
-              (io.grpc.stub.StreamObserver<com.levi.HelloProto.HelloRespnose>) responseObserver);
-          break;
         default:
           throw new AssertionError();
       }
@@ -323,7 +256,6 @@ public final class HelloServiceGrpc {
         if (result == null) {
           serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
               .setSchemaDescriptor(new HelloServiceFileDescriptorSupplier())
-              .addMethod(getHelloMethod())
               .addMethod(getHello1Method())
               .build();
         }

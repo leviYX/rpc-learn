@@ -28,10 +28,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="复杂客户端拦截器，可以拦截请求和响应。">
-      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/interceptor/CustomServerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/interceptor/CustomerClientInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloProto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloServiceGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/proto/Hello.proto" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/proto/Hello.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/interceptor/CustomClientInterceptor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/GrpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/interceptor/CustomServerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/service/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/service/HelloServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="simple-interceptor" />
+        <entry key="$PROJECT_DIR$" value="conplex_request_interceptor" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -80,62 +86,63 @@
     <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.GrpcClient.executor": "Debug",
-    "Application.GrpcClient1.executor": "Run",
-    "Application.GrpcClient2.executor": "Run",
-    "Application.GrpcServer.executor": "Debug",
-    "Application.GrpcServer1.executor": "Run",
-    "Application.RpcGrpcBootServerApplication.executor": "Debug",
-    "Application.ServerStreamAsyncClient.executor": "Run",
-    "Application.ServerStreamClient.executor": "Run",
-    "Application.TestClient.executor": "Run",
-    "Application.TestServer.executor": "Run",
-    "Maven.rpc-grpc-adv-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor": "Run",
-    "Maven.rpc-grpc-adv-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor": "Run",
-    "Maven.rpc-grpc-api [clean].executor": "Run",
-    "Maven.rpc-grpc-api [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
-    "Maven.rpc-grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor": "Run",
-    "Maven.rpc-grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor": "Run",
-    "Maven.rpc-grpc-api [protobuf:compile].executor": "Run",
-    "Maven.rpc-grpc-boot-server [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor": "Run",
-    "Maven.rpc-grpc-boot-server [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor": "Run",
-    "Maven.thrift-common [clean].executor": "Run",
-    "Maven.thrift-common [install].executor": "Run",
-    "Maven.thrift-common [package].executor": "Run",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.RpcGrpcBootClientApplication.executor": "Debug",
-    "Spring Boot.RpcGrpcBootServerApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "conplex__request__interceptor",
-    "kotlin-language-version-configured": "true",
-    "last_directory_selection": "/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-service/src/main/java/com/levi",
-    "last_opened_file_path": "/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-adv-server/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.GrpcClient.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GrpcClient1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GrpcClient2.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GrpcServer.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GrpcServer1.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RpcGrpcBootServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ServerStreamAsyncClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ServerStreamClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestClient.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestServer.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-adv-api [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-adv-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-adv-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-api [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-api [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-api [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-api [protobuf:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-boot-server [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile-custom].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.rpc-grpc-boot-server [org.xolstice.maven.plugins:protobuf-maven-plugin:0.6.1:compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.thrift-common [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.thrift-common [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.thrift-common [package].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.RpcGrpcBootClientApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.RpcGrpcBootServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;stream__interceptor&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-service/src/main/java/com/levi&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/levi/develop/project/distributed/suns/rpc/rpc-r-master/rpc-grpc-adv-server/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/resources" />
@@ -156,7 +163,7 @@
       <recent name="com.levi.service" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GrpcServer">
+  <component name="RunManager" selected="Application.GrpcClient">
     <configuration name="GrpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.levi.GrpcClient" />
       <module name="rpc-grpc-adv-client" />
@@ -397,7 +404,9 @@
       <workItem from="1753149741828" duration="9873000" />
       <workItem from="1753230223018" duration="16000" />
       <workItem from="1753317905869" duration="8071000" />
-      <workItem from="1753404838392" duration="6349000" />
+      <workItem from="1753404838392" duration="6469000" />
+      <workItem from="1753492067051" duration="6458000" />
+      <workItem from="1753503050068" duration="388000" />
     </task>
     <task id="LOCAL-00001" summary="rpc初始学习。">
       <created>1704634186956</created>
@@ -430,7 +439,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753327236602</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="复杂客户端拦截器，可以拦截请求和响应。">
+      <option name="closed" value="true" />
+      <created>1753414585908</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1753414585908</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

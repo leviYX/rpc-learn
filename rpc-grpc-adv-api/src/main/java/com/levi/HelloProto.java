@@ -1133,11 +1133,9 @@ public final class HelloProto {
     java.lang.String[] descriptorData = {
       "\n\013Hello.proto\022\010com.levi\"\034\n\014HelloRequest\022" +
       "\014\n\004name\030\001 \001(\t\"\037\n\rHelloRespnose\022\016\n\006result" +
-      "\030\001 \001(\t2\207\001\n\014HelloService\0228\n\005hello\022\026.com.l" +
+      "\030\001 \001(\t2M\n\014HelloService\022=\n\006hello1\022\026.com.l" +
       "evi.HelloRequest\032\027.com.levi.HelloRespnos" +
-      "e\022=\n\006hello1\022\026.com.levi.HelloRequest\032\027.co" +
-      "m.levi.HelloRespnose(\0010\001B\030\n\010com.leviB\nHe" +
-      "lloProtoP\000b\006proto3"
+      "e(\0010\001B\030\n\010com.leviB\nHelloProtoP\000b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

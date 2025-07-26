@@ -16,8 +16,6 @@ message HelloRespnose{
 }
 
 service HelloService{
-  // 普通方法
-  rpc hello(HelloRequest) returns (HelloRespnose);
   // 双端流方法
   rpc hello1(stream HelloRequest) returns (stream HelloRespnose);
 }
