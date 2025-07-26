@@ -1,5 +1,6 @@
 package com.levi;
 
+import com.levi.interceptor.CustomServerStreamFactory;
 import com.levi.service.HelloServiceImpl;
 import io.grpc.Server;
 import io.grpc.ServerBuilder;
@@ -10,6 +11,8 @@ public class GrpcServer {
     public static void main(String[] args) throws InterruptedException, IOException {
         ServerBuilder<?> serverBuilder = ServerBuilder.forPort(9000);
         serverBuilder.addService(new HelloServiceImpl());
+        // 发布拦截器工厂
+        serverBuilder.addStreamTracerFactory(new CustomServerStreamFactory());
         Server server = serverBuilder.build();
         server.start();
         server.awaitTermination();

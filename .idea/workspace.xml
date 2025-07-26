@@ -27,17 +27,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="复杂客户端拦截器，可以拦截请求和响应。">
-      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/interceptor/CustomerClientInterceptor.java" afterDir="false" />
+    <list default="true" id="775db074-858c-465f-b2e2-d17fb55a92f0" name="Default Changelist" comment="流式的客户端拦截器实现">
+      <change afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/interceptor/CustomServerStreamFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloProto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/java/com/levi/HelloServiceGrpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/proto/Hello.proto" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-api/src/main/proto/Hello.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/GrpcClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-client/src/main/java/com/levi/interceptor/CustomClientInterceptor.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/GrpcServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/GrpcServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/interceptor/CustomServerInterceptor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/service/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/rpc-grpc-adv-server/src/main/java/com/levi/service/HelloServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +53,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -406,7 +403,7 @@
       <workItem from="1753317905869" duration="8071000" />
       <workItem from="1753404838392" duration="6469000" />
       <workItem from="1753492067051" duration="6458000" />
-      <workItem from="1753503050068" duration="388000" />
+      <workItem from="1753503050068" duration="1721000" />
     </task>
     <task id="LOCAL-00001" summary="rpc初始学习。">
       <created>1704634186956</created>
@@ -447,7 +444,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753414585908</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="流式的客户端拦截器实现">
+      <option name="closed" value="true" />
+      <created>1753503642824</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1753503642824</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +477,8 @@
     <MESSAGE value="grpc拦截器" />
     <MESSAGE value="简单客户端拦截器" />
     <MESSAGE value="复杂客户端拦截器，可以拦截请求和响应。" />
-    <option name="LAST_COMMIT_MESSAGE" value="复杂客户端拦截器，可以拦截请求和响应。" />
+    <MESSAGE value="流式的客户端拦截器实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="流式的客户端拦截器实现" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
